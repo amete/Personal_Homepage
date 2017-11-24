@@ -11,12 +11,11 @@ body, html {
 
 .bgimg-1, .bgimg-2 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.75;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .bgimg-1 {
@@ -26,7 +25,7 @@ body, html {
 
 .bgimg-2 {
   background-image: url("img/img_2.jpg");
-  min-height: 400px;
+  min-height: 100%;
 }
 
 .caption {
@@ -46,11 +45,35 @@ body, html {
   letter-spacing: 10px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+}
+
+.main {
+  padding: 16px 0px;
+  margin-top: 42px;
+  height: 750px; /* Used in this example to enable scrolling */
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -64,19 +87,42 @@ h3 {
 </head>
 <body>
 
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">Welcome to my Homepage!</span>
-  </div>
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <a href="https://github.com/amete">My GitHub Profile</a>
+  <a href="https://linkedin.com/in/asmete">My Linkedin Profile</a>
+  <a href="mailto:serhanmete@gmail.com">Contact Me</a>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">About me</h3>
-  <p>I am currently an Assistant Research Scientist at the Department of Physics and Astronomy at the University of California, Irvine and a member of the ATLAS experiment at the Large Hadron Collider (LHC) at the European Organization for Nuclear Research (CERN) located near Geneva, Switzerland, where I do my research on the field of experimental high energy physics (HEP).</br></br>Among my research interests are Exotic and SUSY searches for physics beyond the Standard Model with leptonic final states. I have been involved in the Trigger and Data AcQuisition (TDAQ) system of the ATLAS detector with the emphasis on online trigger monitoring.</p>
-</div>
+<div class="main">
 
-<div class="bgimg-2">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Fantastic content coming soon, stay tuned!!!</span>
+  <div class="bgimg-1">
+    <div class="caption" style="top: 30%;">
+      <span class="border">Welcome to my Homepage!</span>
+      <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="https://github.com/amete">My GitHub Profile</a>
+        <a href="https://linkedin.com/in/asmete">My Linkedin Profile</a>
+        <a href="mailto:serhanmete@gmail.com">Contact Me</a>
+      </div>
+    </div>
   </div>
+  
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">About me</h3>
+    <p>I am currently an Assistant Research Scientist at the Department of Physics and Astronomy at the University of California, Irvine and a member of the ATLAS experiment at the Large Hadron Collider (LHC) at the European Organization for Nuclear Research (CERN) located near Geneva, Switzerland, where I do my research on the field of experimental high energy physics (HEP).</br></br>Among my research interests are Exotic and SUSY searches for physics beyond the Standard Model with leptonic final states. I have been involved in the Trigger and Data AcQuisition (TDAQ) system of the ATLAS detector with the emphasis on online trigger monitoring.</p>
+  </div>
+  
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Fantastic content coming soon, stay tuned!!!</span>
+      <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="https://github.com/amete">My GitHub Profile</a>
+        <a href="https://linkedin.com/in/amete">My Linkedin Profile</a>
+        <a href="mailto:serhanmete@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </div>
+
 </div>
