@@ -210,3 +210,53 @@ h3 {
     transform: translateY(-5px);
   }
 }
+
+.coursebox {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  padding: 80px 80px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: black; 
+  font-size: 30px;
+  -webkit-text-stroke: 1px #f2f2f2;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  font-family: 'Permanent Marker', bold;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
+  border: none;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a { 
+  text-decoration: none;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
