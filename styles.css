@@ -256,11 +256,15 @@ li a {
   width: 100%;
 }
 
-.coursebox a:link, a:visited {
+.coursebox a:link {
   color:black;
   -webkit-text-stroke: 1px #f2f2f2;
 }
 
+.coursebox a:visited {
+  color:black;
+  -webkit-text-stroke: 1px #f2f2f2;
+}
 li a:hover {
   font-size: 30px;
   background: #f6f6f6;
