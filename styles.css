@@ -123,29 +123,17 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 25px "Helvetica", sans-serif;
-  /*
   text-shadow: 0 0 20px #000; 
   -moz-text-shadow: 0 0 20px #000;
   -webkit-text-shadow: 0 0 20px #000;
-  */
 }
-
-/*
-.main {
-  padding: 16px 0px;
-  margin-top: 42px;
-  height: 750px; 
-}
-*/
 
 /* Turn off parallax scrolling for tablets and phones */
-/*
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2 {
       background-attachment: scroll;
   }
 }
-*/
 
 *,
 :after,
