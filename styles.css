@@ -20,6 +20,13 @@ body, html {
 
 .bgimg-2 {
   background-image: url("img/img_2.jpg");
+}
+
+.bgimg-3 {
+  background-image: url("img/img_3.jpg");
+}
+
+.biobox {
   color: #f2f2f2;
   text-align:center;
   padding: 80px 80px;
@@ -30,25 +37,26 @@ body, html {
   -webkit-text-shadow: 0 0 20px #000;
 }
 
-.bgimg-3 {
-  background-image: url("img/img_3.jpg");
+.biobox a:visited {
+    color: #ffb6c1;
 }
 
 .caption {
   position: absolute;
-  left: 0;
-  top: 35%;
+  top: 40%;
   width: 100%;
   text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
   font-size: 25px;
   letter-spacing: 5px;
+  color: #f2f2f2;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  font-family: 'Permanent Marker', bold;
 }
 
 .navbar {
