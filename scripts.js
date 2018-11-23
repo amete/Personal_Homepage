@@ -1,6 +1,6 @@
 // Add smooth scrolling to all links
 $(document).ready(function(){
-  $(".scroll-down").on('click', function(event) {
+  $(".scroll-down, .fancylink").on('click', function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
