@@ -256,7 +256,7 @@ li a {
   width: 100%;
 }
 
-.coursebox a:link {
+.coursebox a:link, .coursebox a:visited {
   color:black;
   -webkit-text-stroke: 1px #f2f2f2;
 }
