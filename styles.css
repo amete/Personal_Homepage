@@ -32,8 +32,10 @@ body, html {
 
 .biobox {
   color: #f2f2f2;
-  text-align:center;
-  padding: 80px 80px;
+  position: absolute;
+  width: 85%;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
   line-height: 20px;
   text-align: justify;
   text-shadow: 0 0 20px #000; 
@@ -41,13 +43,14 @@ body, html {
   -webkit-text-shadow: 0 0 20px #000;
 }
 
-.biobox a:visited {
+.biobox a:link, .biobox a:visited {
     color: #ffb6c1;
 }
 
 .caption {
   position: absolute;
-  top: 40%;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -123,6 +126,14 @@ body, html {
     display: block;
 }
 
+.sidebar{
+  background-color: transparent;
+  position: fixed;
+  bottom: 50%;
+  margin-left: 5px;
+  width: 0px;
+}
+
 .footer{
   background-color: #333;
   position: fixed;
@@ -163,7 +174,7 @@ h3 {
 
 .scroll-down {
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   left: 50%;
   margin-left: -16px;
   display: block;
